@@ -1,10 +1,11 @@
 package main
 
 import (
-	pb "github.com/grpc-playground/proto/pb"
 	"io"
 	"log"
 	"net"
+
+	"github.com/grpc-playground/proto/pb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
